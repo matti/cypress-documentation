@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  app:
+    build: .
+    image: mattipaksula/cypress-documentation
+    ports:
+      - 2222:2222
